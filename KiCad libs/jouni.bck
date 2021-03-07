@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6206
+D Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin<=6V, SOT-23
+K REGULATOR LDO
+F https://datasheet.octopart.com/XC6206P332MR-Torex-datasheet-8814476.pdf
+$ENDCMP
+#
+#End Doc Library

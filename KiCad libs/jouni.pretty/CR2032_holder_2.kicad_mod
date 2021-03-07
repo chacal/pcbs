@@ -1,0 +1,32 @@
+(module CR2032_holder_2 (layer F.Cu) (tedit 5BD4A1CF)
+  (fp_text reference BT1 (at 0 11.43) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Battery_Cell (at 0 -11.43) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_arc (start 0 0) (end 0 -10.16) (angle 90) (layer F.Fab) (width 0.15))
+  (fp_arc (start 0 0) (end -10.16 0) (angle 90) (layer F.Fab) (width 0.15))
+  (fp_arc (start 0 0) (end 0 10.16) (angle 90) (layer F.Fab) (width 0.15))
+  (fp_arc (start 0 0) (end 10.16 0) (angle 90) (layer F.Fab) (width 0.15))
+  (pad 1 smd rect (at -11.938 0) (size 3.302 3.81) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 11.938 0) (size 3.302 3.81) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd custom (at 0 0.762) (size 0.0254 0.0254) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 8.46963) (xy 2.917317 7.999095) (xy 5.552313 6.681597) (xy 7.622667 4.611243) (xy 8.940165 1.976247)
+         (xy 9.4107 0) (xy -9.4107 0) (xy -8.940165 1.976247) (xy -7.622667 4.611243) (xy -5.552313 6.681597)
+         (xy -2.917317 7.999095)) (width 0))
+    ))
+  (pad 2 smd custom (at 0 -0.762 180) (size 0.0254 0.0254) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 8.46963) (xy 2.917317 7.999095) (xy 5.552313 6.681597) (xy 7.622667 4.611243) (xy 8.940165 1.976247)
+         (xy 9.4107 0) (xy -9.4107 0) (xy -8.940165 1.976247) (xy -7.622667 4.611243) (xy -5.552313 6.681597)
+         (xy -2.917317 7.999095)) (width 0))
+    ))
+)
